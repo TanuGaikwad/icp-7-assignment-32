@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //reverse
+        const student = ["Atharva", "Bhakti", "Neha", "Rohini"];
+        student.reverse();
+        console.log(student);
+
+         //ascending order
+         const member = ["Harshad", "Rutuja", "Prachi", "Siddhi"];
+         member.sort();
+         console.log(member);
+          
+         //descending order
+         const members = ["Aman", "Sharmin", "Nupur", "Tanvi"];
+         members.sort();
+         console.log("Ascending :" + members);
+
+          members.reverse();
+          console.log("Descending : " + members);
+
+          //indexof
+          const arr = ["Bushra", "Aakansha", "Sarita", "Akshada"];
+          const index = arr.indexOf("Aakansha");
+          console.log(index);
+
+
+          //includes
+          const students = ['Sargam', 'Sumit', 'Vishal', 'Vaishnavi'];
+
+          console.log(students.includes('Vishal')); 
+          console.log(students.includes('prajyot')); 
+
+    </script>
+</body>
+</html>
