@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+const students = ["Yash", "Sakshi", "Sanket", "Siddhi"];
+console.log(students);
+students.unshift("Tejas");
+console.log(students);
+
+const people = ["Chaitanya", "Akash", "Harshal", "Omkar"];
+console.log(people);
+students.shift();
+console.log(people);
+
+
+const waiting_list = ["Sahil", "Bhakti", "Sakshi"];
+console.log(waiting_list);
+waiting_list.push("Tanvi");
+console.log(waiting_list);
+
+waiting_list.shift()
+console.log(waiting_list)
+
+const member = ["Gauri", "Bharti", "Aniket", "Kanchan", "Siddhi", "Tejas"];
+console.log(member);
+students.splice(1, 2, "Prachi", "Sanjana");
+console.log(member);
+
+
+const employee = ["Suraj","Vidhi","Nandini","Sarthak","Jayesh","Payal"]
+console.log(employee.join())
+    
+const family = ["Suraj", "Vidhi", "Nandini", "Sarthak", "Jayesh", "Payal"];
+console.log(family.join("*"));
+    </script>   
+</body>
+</html>
+  
+
+</html>
